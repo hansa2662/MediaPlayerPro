@@ -1,61 +1,100 @@
-#Media Player Pro
+# Media Player Pro
+
 <Program przeznaczony dla użytkowników czytników ekranu nvda.
 Ten program odtwarza różne pliki multimedialne i ułatwia ich kontrolę dostępną w 100% za pomocą czytników ekranu.
-Gdzie użytkownik w łatwy sposób, dostosowuje to, czego chce od mowy w programie.
+W łatwy sposób, gdzie użytkownik dostosowuje to, czego chce od mowy w programie.
 Program obsługuje różne formaty multimediów, w tym:
-.mp3, .ogg, .wav, .m4a, .mp4.
-itp.
+.mp3, .ogg, .wav, .m4a, .mp4. itp.
+
 # Funkcje programu:
-1: Sterowanie mową, w którym możesz wybrać, co chcesz z dostępnych ustawień mowy, które są następujące:
-* Mów pauza / wznowienie.
-* Mów czas, który upłynął podczas przewijania do przodu i do tyłu.
-* Mów głośność, gdy ją kontrolujesz.
+1: sterowanie mową, w którym możesz wybrać, co chcesz z dostępnych ustawień mowy, które są następujące:
+ * Mówi odtwarzaj lub pauza.
+ * Mówi czas, który upłynął podczas przewijania do przodu i do tyłu.
+ * Mówi głośność, gdy ją kontrolujesz.
 2: Możesz otworzyć cały folder w programie i dość łatwo poruszać się po plikach, a funkcje związane z folderami są następujące:
-* Funkcja usuwania pliku jest dostępna z poziomu programu.
-* Funkcja wyszukiwania folderów, możesz uruchomić plik z wyników wyszukiwania, a także skopiować ścieżkę pliku lub przejść do ścieżki pliku i umieścić na nim kursor za pomocą menu kontekstowego.
-3: Załaduj cały folder po otwarciu pliku: Ta funkcja umożliwia otwarcie całego folderu zawierającego odtwarzany plik.
-4: Zapisz ostatnio odtwarzany plik z pozycją, w której został zatrzymany, po uruchomieniu program ponownie otworzy plik i przejdzie do pozycji, w której został zatrzymany, również jeśli otworzysz folder w jakikolwiek sposób, otworzy ponownie folder, gdy uruchamiasz program z jego skrótu, a także możesz wyłączyć tę funkcję w ustawieniach.
+ * Funkcja usuwania pliku jest dostępna z poziomu programu.
+ * Funkcja wyszukiwania folderów, możesz uruchomić plik z wyników wyszukiwania, a także skopiować ścieżkę pliku lub przejść do ścieżki pliku i umieścić na nim kursor za pomocą menu kontekstowego.
+3: Ładuje cały folder po otwarciu pliku: Ta funkcja umożliwia otwarcie całego folderu zawierającego odtwarzany plik.
+4: Zapisuje ostatnio odtwarzany plik z pozycją, w której został zatrzymany, po uruchomieniu program ponownie otworzy plik i przejdzie do pozycji, w której został zatrzymany, również jeśli otworzysz folder w jakikolwiek sposób, otworzy się ponownie, gdy uruchamiasz program z jego skrótu, a także możesz wyłączyć tę funkcję w ustawieniach.
 5: Przejdź do pliku, wpisując numer pliku w folderze.
-6: Odtwarzaj klipy z YouTube za pośrednictwem łącza wideo.
-7: Wyszukaj w YouTube: Dzięki tej funkcji możesz wyszukiwać filmy w YouTube i odtwarzać je w programie. Możesz także skopiować łącze wideo lub łącze kanału zawierającego wideo, otworzyć wideo w przeglądarce lub otworzyć kanał w przeglądarce.
+6: Odtwarza klipy z YouTube za pośrednictwem łącza wideo.
+7: Wyszukuje w YouTube: Dzięki tej funkcji możesz wyszukiwać filmy w YouTube i odtwarzać je w programie. Możesz także skopiować łącze wideo lub łącze kanału zawierającego wideo, otworzyć wideo w przeglądarce lub otworzyć kanał w przeglądarce.
 Okno wyszukiwania YouTube zawiera pole wyboru, aby załadować wszystkie pobrane wyniki do listy i staje się kontrolowane jako folder, możesz przechodzić między wynikami, a wynik zostanie odtworzony automatycznie.
 Funkcje folderów dotyczą również powyższej funkcji, jeśli program zostanie zamknięty, zachowa te wyniki i zwróci je po otwarciu programu.
 Przez załadowane wyniki rozumiem wyniki na liście, im więcej wyników przesuniesz na koniec listy, tym więcej wyników zostanie załadowanych.
 8: Przeczytaj komentarze do filmów z YouTube z poziomu programu.
 Na początku zostanie przesłanych tylko 20 komentarzy, a gdy dojdziesz do końca listy, zostanie przesłanych więcej. Ma to na celu uniknięcie problemów w przypadku dużej liczby komentarzy.
-9: Wybierz przewijanie do przodu o 1/60 sekundy, możesz to określić w ustawieniach i możesz przewijać klip przez numery, a nie numery boczne, mam na myśli te górne, które znajdują się na górze klawiatury.
+9: Wybierz przewijanie do przodu od 1 do 60 sekund, możesz to określić w ustawieniach i możesz przewijać klip przez numery, a nie numery boczne, mam na myśli te górne, które znajdują się na górze klawiatury.
 10: Funkcja powtarzania klipu, czyli po jego zakończeniu klip zostanie odtworzony ponownie.
 11: Przejdź do funkcji następnego klipu: Funkcja powtarzania klipu musi być wyłączona, aby ta funkcja działała,i ta funkcja dotyczy folderów i wyników wyszukiwania, jeśli są dostępne.
 12: Kontroluj większość funkcji programu za pomocą globalnych skrótów z możliwością ukrycia okna programu.
 Możesz otwierać pliki za pomocą opcji, którą program tworzy w menu kontekstowym po zainstalowaniu.
 Program można również tymczasowo ustawić jako program domyślny ręcznie.
 utwory z YouTube są odtwarzane jako dźwięk, a nie wideo.
-
 # Skróty programu:
-Umieszcza skróty programu od wewnątrz, a skrót z zewnątrz przeciwko niemu.
-Skrót kontrol z programu globalnego jest domyślnie dostarczany z alt+Kontrol.
-Ten skrót nie jest zgodny z systemem Windows 11, więc możesz zmienić ten skrót w ustawieniach i zaleca się ustawienie alt + windows + Kontrol, aby działał poprawnie.
-Powie ci każdy skrót, potem globalny skrót do niego, ale tylko akronim, nie wspominając o alt+Kontrol.
-Strzałka w lewo/w prawo: do przewijania do przodu/do tyłu, a także samego skrótu globalnego.
-Strzałka w górę / w dół: do sterowania głośnością: 0/200%, a także sam skrót ogólny.
-strona w górę/strona w dół: aby przejść do następnej/poprzedniej ścieżki, a także samego globalnego skrótu.
-strona główna: aby przejść do początku klipu, globalny skrót jest taki sam.
-spacja: aby wstrzymać/wznowić, globalny skrót jest taki sam.
-m: aby wyciszyć, globalny skrót v.
-n: Aby włączyć lub wyłączyć funkcję przechodzenia do następnego pliku.
-c: Wyświetla komentarze, jeśli jest odtwarzany film z YouTube.
-g: aby przejść do pliku po jego numerze w folderze, czyli kolejności między plikami, skrót globalny: j.
-s: wyszukiwanie w folderze.
-O: Aby wyszukać w YouTube, globalny skrót jest taki sam.
-y: aby odtworzyć klip z YouTube za pośrednictwem łącza, skrót globalny: l.
-r: Aby włączyć lub wyłączyć funkcję powtarzania klipu, skrót globalny: e.
-i: Aby uzyskać informacje o odtwarzanym utworze, globalny skrót jest taki sam.
-Delete/Delete na klawiaturze numerycznej: aby usunąć odtwarzaną ścieżkę, ta funkcja działa w tej chwili tylko z folderami, globalny skrót jest taki sam.
-Kontrol+o: aby otworzyć plik, globalny skrót o.
-Kontrol+f: aby otworzyć folder, skrót globalny: s.
-Kontrol+s: Otwiera ustawienia.
-Kontrol+w: Zamyka wszystko w programie, folderze lub wynikach YouTube i zatrzymuje odtwarzanie klipu.
-alt+windows+h: ukrywa/pokazuje okno programu.
-
+Umieszczę skróty programu wewnątrz, a skróty zewnętrzne przeciwko niemu.
+Skrót kontrolny z programu globalnego jest domyślnie dostarczany z alt+control.
+Ten skrót nie jest zgodny z systemem Windows 11, więc możesz zmienić ten skrót w ustawieniach i zaleca się ustawienie go alt + windows + control, aby działał poprawnie.
+Przedstawię ci wszystkie skróty, potem globalny skrót do niego, ale tylko akronim, nie wspominając o alt+control.
+ * Strzałka w lewo/w prawo: do przewijania do przodu/do tyłu, skrót ogólny taki sam.
+ * Strzałka w górę / w dół: do sterowania głośnością: od 0 do 200%, skrót ogólny taki sam.
+ * PageUp / PageDown: Aby przejść do następnej/poprzedniej ścieżki, skrót ogólny taki sam.
+ * Home: aby przejść do początku klipu, ogólny skrót jest taki sam.
+ * spacja: aby wstrzymać/wznowić, globalny skrót jest taki sam.
+ * m: aby wyciszyć, globalny skrót v.
+ * n: Aby włączyć lub wyłączyć funkcję przechodzenia do następnego pliku.
+ * c: Wyświetla komentarze, jeśli jest odtwarzany film z YouTube.
+ * g: aby przejść do pliku po jego numerze w folderze, czyli kolejności między plikami, skrót globalny: j.
+ * s: wyszukiwanie w folderze.
+ * o: Aby wyszukać w YouTube, globalny skrót jest taki sam.
+ * y: aby odtworzyć klip z YouTube za pośrednictwem łącza, skrót globalny: l.
+ * r: Aby włączyć lub wyłączyć funkcję powtarzania klipu, skrót globalny: e.
+ * i: Aby uzyskać informacje o odtwarzanym utworze, globalny skrót jest taki sam.
+ * Delete/Delete na klawiaturze numerycznej: aby usunąć odtwarzaną ścieżkę, ta funkcja działa w tej chwili tylko z folderami, globalny skrót jest taki sam.
+ * control+o: aby otworzyć plik, globalny skrót o.
+ * control+f: aby otworzyć folder, skrót globalny: s.
+ * control+s: Otwiera ustawienia.
+ * control+w: Zamyka wszystko w programie, folderze lub wynikach YouTube i zatrzymuje odtwarzanie klipu.
+ * alt+windows+h: ukrywa/pokazuje okno programu.
 Okno ustawień jest oczywiste, ponieważ większość opcji jest opisana i są one proste.
 Możesz skontaktować się ze mną za pośrednictwem menu Informacje, aby przekazać mi swoje sugestie lub poinformować mnie o problemie.
+
+------------------------------
+# Zmiany
+# zmiany v1.3
+* Program jest teraz open source
+* Teraz, gdy uruchomisz program, który już działa, zamiast nic, powie ci.
+* Teraz, gdy wyszukujesz w YouTube i wybierasz opcję ładowania wyników na liście, powiedzmy, że do odtworzenia wybrano piąty wynik, zapisze on sekwencję wyniku, a kiedy przejdziesz do następnego wyniku, zaczyna się od szósty wynik i tak dalej z automatycznym odtwarzaniem następnego klipu.
+* Do sterowania sapi 5 użyto innej biblioteki,i może rozwiązać niektóre problemy, z którymi borykają się niektórzy, takie jak kontrolowanie głośności i prędkości.
+Również modyfikacja ustawień sapi5 nie wymagała restartu programu.
+Ponadto, teraz możesz ustawić szybkość i głośność spoza ustawień, naciskając f5/f6, aby kontrolować szybkość mówienia, f7/f8, aby kontrolować głośność.
+ * Rozwiązano problem polegający na tym, że niektóre skróty czasami się zawieszają.
+ * Rozwiązano problem braku możliwości otwarcia ustawień po aktualizacji lub usunięciu ustawień.
+ * Problemy z historią wyszukiwania zostały rozwiązane.
+ * Rozwiązano problem wyciszania programu po jego uruchomieniu, który pojawiał się u niektórych osób.
+ * Teraz możesz uruchomić program za pomocą okna uruchamiania, wpisując mpp, a program uruchomi się bezpośrednio.
+ * Skróty przyspieszania i zwalniania w klipie zostały zmienione z - i = na shift+strzałka-w dół i shift+strzałka-w górę-na-przyspieszenie, ponieważ niektórzy bracia zgłosili, że ich klawiatury nie mają tych znaków ze względu na ich język .
+ * Dodatkowe klawisze przewijania do przodu/do tyłu zostały dodane w następujący sposób:
+* shift+strzałka w prawo: / strzałka w lewo: do przodu / do tyłu o 10 sekund.
+* control+strzałka w prawo: / strzałka w lewo: do przodu/opóźnienie o 15 sekund.
+* control+shift+strzałka w prawo: / strzałka w lewo: do przodu/do tyłu o 30 sekund.
+* alt+strzałka w prawo: / strzałka w lewo: do przodu/do tyłu o minutę.
+Jeśli chodzi o prawą i lewą strzałkę, możesz dostosować żądany czas trwania z ustawień, a możliwość dostosowania została zwiększona z 60 sekund do 1800 sekund, czyli około 30 minut.
+* Dodano możliwość wyszukiwania aktualizacji dla konkretnego języka, tzn. możliwe jest wydawanie aktualizacji tylko dla plików językowych, aby można je było łatwo zaktualizować, zwłaszcza jeśli aktualizacja jest wydana z programu, a tłumaczenie języka nie zostało została zakończona, jeśli tłumacz jest zajęty itp., ale jak dotąd ta funkcja nie jest obsługiwana język arabski, możesz wyszukać aktualizacje ręcznie z menu głównego lub aktywować opcję sprawdzania aktualizacji języka podczas uruchamiania, weryfikacja odbywa się na podstawa języka programu, to znaczy, jeśli językiem programu jest angielski, nie zawiera aktualizacji dla języka innego niż angielski.
+* Teraz możesz odtwarzać z dowolnego bezpośredniego łącza, co oznacza, że ​​odtwarzanie z łącza nie ogranicza się tylko do YouTube.
+Podobnie, jeśli uruchomisz coś przez link i masz plik tłumaczenia srt na komputerze i otworzysz plik srt, zostanie on odczytany bez problemów, to znaczy przetłumaczona rzecz nie musi znajdować się na twoim komputerze.
+* Teraz, gdy otworzysz plik z napisami: zamiast wszystkich plików pojawią się tylko pliki srt
+* Program obsługuje teraz języki turecki, francuski i hiszpański.
+# zmiany v1.4
+Przed rozpoczęciem zmian miałem już dawno zrobić aktualizację, aby rozwiązać problem braku możliwości odtwarzania klipów z YouTube, na który cierpi większość programistów korzystających z bibliotek youtube dl/yt-dlp, ale przepraszam za opóźnienie .
+Również w poprzedniej wersjiwiele osób borykało się z problemem braku możliwości uruchomienia programu. W rzeczywistości było to po użyciu biblioteki do wywoływania głosów sapi5 i używania ich. Do tej pory nie znalazłem lepszej alternatywy niż ta biblioteka, ale poszukam. Aby rozwiązać ten problem stworzyłem dwie wersje programu, jedna zawierająca funkcję czytania tłumaczeń za pomocą sapi5, a druga nie zawierająca tej funkcji. Jeśli wersja Ci nie działa, pobierz wersję, która nie zawiera funkcji czytania tłumaczeń za pomocą sapi 5.
+Zmiany w wersji 1.4:
+1: Możesz z łatwością czytać napisy do filmów na YouTube, naciskając control + t, jeśli film zawiera napisy, pojawi się lista. Wystarczy kliknąć na żądany napis, a zacznie się normalnie czytać.
+2: Do YouTube dodano możliwość uzyskiwania popularnych filmów wideo w określonym kraju. Po kliknięciu opcji Filmy zyskujące popularność w menu / menu YouTube lub naciśnięciu skrótu klawiszowego control+shift+t, jeśli wcześniej nie określiłeś kraju, zostaniesz poproszony o wybranie kraju. Po wybraniu kraju wystarczy wprowadź ponownie, a pojawi się okno dialogowe zawierające listę popularnych filmów wideo w wybranym kraju. Po naciśnięciu zakładki znajdziemy kilka opcji np. otwórz wszystkie wyniki, lub znajdziemy przycisk z nazwą skrótu nazwy kraju i zmień kraj, np. IQ, zmień kraj, aby wybrać inny kraj do uzyskania W filmach zyskujących popularność ta funkcja jest na razie eksperymentalna i może powodować pewne problemy.
+3: Listy odtwarzania zostały dodane: to znaczy, że możesz tworzyć listy odtwarzania i dodawać do nich różne klipy, a także możesz dowolnie zmieniać kolejność klipów, aby dodać klip, wystarczy nacisnąć alt+l i wybrać lub utworzyć nową listę, po czym dostęp do list odtwarzania można uzyskać, naciskając control +l, pojawią się listy odtwarzania, po kliknięciu na jedną z list otworzy się lista z listą zawierającą klipy, stojąc na klipie, wciśnięcie tab przenosi nas do niektóre opcje, przesuń w górę, aby przesunąć klip do góry, przesuń w dół, aby przesunąć klip do dołu, usunąć klip lub dodać nowy klip, możesz także nacisnąć Enter na klipie lub nacisnąć Otwórz listę odtwarzania, otworzy się w program, a każda z tych opcji ma skrót zapisany po nazwie.
+4: Możesz teraz odtwarzać pliki m3u, po wybraniu opcji otwórz lub naciśnięciu klawiszy control+o, a następnie wybraniu pliku m3u, zostanie on odtworzony i możesz poruszać się po klipach lub jest w porządku, jeśli są to kanały z poprzednią i następną stroną przyciski w górę/w dół.
+5: Możliwość wykonania kopii zapasowej ustawień lub danych, lub obu, została dodana poprzez przejście do Ustawienia / Kopia zapasowa i przywracanie. Kliknięcie Utwórz kopię zapasową powoduje wyświetlenie okna dialogowego z dwoma polami wyboru, pierwsze, jeśli chcesz dołączyć dane, takie jak listy odtwarzania, historia wyszukiwania, Ulubione i inne, a drugie, aby dołączyć bieżący plik ustawień, ponieważ istnieje pole który zawiera ścieżkę,i możesz to zmienić, klikając Przeglądaj i określając ścieżkę, po kliknięciu OK zostanie wykonana kopia zapasowa z nazwą programu i datą. Jeśli chodzi o drugą opcję, czyli przywrócenie kopii zapasowej, po jej naciśnięciu wystarczy podać ścieżkę, a następnie nacisnąć Tak, przywróci kopię i zażąda ponownego uruchomienia programu.
+6: Możesz teraz przejść do określonego czasu w klipie, wybierając godzinę, minutę i sekundę, przeniesie się on bezpośrednio,
+Po naciśnięciu klawiszy Ctrl+j pojawia się okno wyboru czasu, w którym pojawiają się pola czasu zgodnie z sekcją, jeśli sekcja zawiera godziny, pojawia się pole godzin, podobnie jak w przypadku innych pól, czas można wpisać ręcznie lub poruszać się za pomocą strzałek w górę i w dół, aby wybrać, po kliknięciu OK. Przejdzie bezpośrednio do wybranego czasu.
+7: Nie działa rozwiązanie problemu klikania na dodanie nowej kategorii do ulubionych, podobnie jak brak możliwości odtworzenia klipu z ulubionych.
+8: Rozwiązano problem opcji przejdź do tego, że nie działa.
